@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#353535"
+    android:background="#212738"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -63,6 +63,7 @@
         android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="#fdf0d5"
+        android:backgroundTint="#8d99ae"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:text="Регистрация"/>
