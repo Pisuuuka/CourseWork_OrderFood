@@ -31,5 +31,13 @@ class ItemsAdapter(var items: List<Item>, var context: Context) : RecyclerView.A
         holder.title.text = items[position].title
         holder.desc.text = items[position].desc
         holder.price.text = items[position].price.toString()
+
+        val imageId = context.resources.getIdentifier(
+            items[position].image,
+            "drawable",
+            context.packageName
+        )
+
+        holder.image.setImageResource(imageId)
     }
 }
